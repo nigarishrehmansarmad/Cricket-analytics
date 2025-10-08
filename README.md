@@ -30,4 +30,30 @@ This project implements an AI-powered cricket analytics dashboard that processes
     python -m venv venv
     source venv/bin/activate # Linux/macOS
     venv\Scripts\activate # Windows
-3. 
+3. Install required dependencies:
+    pip install -r requirements.txt
+4. Run the app locally:
+   streamlit run web_app.py
+
+## Repository Structure
+CRICKET_DATA/
+│
+├── Batting/
+│ ├── ODI data.csv
+│ ├── t20.csv
+│ └── test.csv
+│
+├── Bowling/
+│ ├── Bowling_ODI.csv
+│ ├── Bowling_t20.csv
+│ └── Bowling_test.csv
+│
+├── Fielding/
+│ ├── Fielding_ODI.csv
+│ ├── Fielding_t20.csv
+│ └── Fielding_test.csv
+│
+├── analytics_engine.py # Core analytics module
+├── styles.css # Styling for Streamlit app
+└── web_app.py # Streamlit UI app
+
