@@ -4,7 +4,7 @@ This project implements an AI-powered cricket analytics dashboard that processes
 
 ## Features
 
-- Processes 9+ CSV datasets covering batting, bowling, and fielding statistics.
+- Processes 9+ CSV datasets covering batting, bowling, and fielding statistics from [Kaggle Cricket Dataset](https://www.kaggle.com/datasets/mahendran1/icc-cricket)
 - Machine learning pipelines using ensemble regression and clustering techniques.
 - Interactive visualizations and dashboards built with Streamlit and Plotly.
 - Deployed on [Streamlit Community Cloud](https://streamlit.io/cloud) for real-time insights.
