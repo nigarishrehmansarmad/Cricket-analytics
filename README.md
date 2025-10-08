@@ -53,7 +53,7 @@ CRICKET_DATA/
 │ ├── Fielding_t20.csv
 │ └── Fielding_test.csv
 │
-├── analytics_engine.py # Core analytics module
-├── styles.css # Styling for Streamlit app
-└── web_app.py # Streamlit UI app
+├── analytics_engine.py 
+├── styles.css 
+└── web_app.py 
 
